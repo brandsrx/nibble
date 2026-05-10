@@ -1,10 +1,17 @@
 {
   "name": "nibble",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "P2P file transfer platform",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm run --parallel dev",
+    "dev:web": "pnpm run --filter web dev",
+    "dev:signaling": "pnpm run --filter signaling dev",
+    "build": "pnpm run --parallel build",
+    "build:web": "pnpm run --filter web build",
+    "build:signaling": "pnpm run --filter signaling build",
+    "lint": "pnpm run --filter web lint",
+    "clean": "pnpm run --parallel clean"
   },
   "keywords": [],
   "author": "Ramiro Brandon Mamani Quisbert",

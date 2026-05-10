@@ -1,7 +1,7 @@
 // apps/web/src/app/landingPage.tsx
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Zap, ArrowRight, ShieldCheck, FileUp, Globe, MousePointer2, Link2 } from "lucide-react";
+import { Zap, ArrowRight, ShieldCheck, FileUp, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export default function LandingPage() {
